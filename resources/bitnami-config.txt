@@ -1,0 +1,20 @@
+
+
+Public DNS (IPv4): ec2-54-233-147-137.sa-east-1.compute.amazonaws.com
+
+username: bitnami
+
+Bitnami application password: XQqf8KLOrBIt
+
+mongo users:
+	u: admin
+	p: koalas
+
+	u: meanstacktutorials
+	p: meanstacktutorials
+
+run mongo shell: sudo mongo admin --username admin --password koalas
+
+run mongo shell remotely: mongo ec2-54-233-147-137.sa-east-1.compute.amazonaws.com:27017/admin -u admin -p koalas
+
+restart mongo service: ~/stack/$ sudo bash ctlscript.sh restart mongodb
